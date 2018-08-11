@@ -19,7 +19,7 @@
     "popper.js": "^1.14.4"
   },
   "description": "Demo Project Express",
-  "main": "app.js",
+  "main": "server.js",
   "author": "Nusrat Riaz",
   "license": "MIT",
   "devDependencies": {
