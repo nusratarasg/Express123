@@ -14,12 +14,12 @@
     "font-awesome": "^4.7.0",
     "http-errors": "~1.6.2",
     "jquery": "^3.3.1",
-    "morgan": "~1.9.0",
     "mongoose": "^5.2.7",
+    "morgan": "~1.9.0",
     "popper.js": "^1.14.4"
   },
   "description": "Demo Project Express",
-  "main": "server.js",
+  "main": "app.js",
   "author": "Nusrat Riaz",
   "license": "MIT",
   "devDependencies": {
@@ -31,4 +31,5 @@
     "node": ">=10.0.0",
     "npm": ">=5.6.0"
   }
+
 }
