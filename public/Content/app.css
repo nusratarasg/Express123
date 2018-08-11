@@ -82,7 +82,7 @@ caption {
 }
 
 #bkcolor2 {
-    background-color: rgba(172, 212, 252, 0.863);
+    background-color: lightgrey;
 }
 
 #bkcolor3 {
@@ -128,6 +128,18 @@ caption {
     font-weight: normal;
 }
 
+#abc {
+    margin-top: 20px;
+}
+
+#xyz {
+    margin-top: 20px;
+}
+
+#atoz {
+    margin-top: 20px;
+}
+
 /* End of From Css*/
 
 /*
@@ -163,5 +175,9 @@ a:hover {
 }
 
 #paragraph1 {
+    text-align: justify;
+}
+
+#paragraph2 {
     text-align: justify;
 }
