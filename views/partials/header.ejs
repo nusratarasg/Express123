@@ -19,34 +19,40 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="/">Express Generator Demo Project</a>
+      <a class="navbar-brand" href="/"> <img src="/Assets/images/mylogo4.png" width="55" height="50" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
+        aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          
+        <ul class="navbar-nav ml-auto">
+          <% if(title == "Home Page") { %>
+            <li id="Home" class="nav-item active">
+              <% } else { %>
                 <li id="Home" class="nav-item">
-                  
+                  <% } %>
                     <a class="nav-link" href="/">
-                      <i class="fa fa-home fa-lg"></i> Riaz Home</a>
+                      <i class="fa fa-home fa-lg" style="font-size:20px;color:olivedrab;"></i> Home</a>
                 </li>
 
-                
+                <% if(title == "About Page") { %>
+                  <li id="About" class="nav-item active">
+                    <% } else { %>
                       <li id="About" class="nav-item">
-                       
+                        <% } %>
                           <a class="nav-link" href="/about">
-                            <i class="fa fa-info fa-lg"></i> About Nusrat</a>
+                            <i class="fa fa-address-card fa-lg" style="font-size:20px;color:olivedrab;"></i> Contact </a>
                       </li>
 
-                      
+                      <% if(title == "Contact Page") { %>
+                        <li id="Contact" class="nav-item active">
+                          <% } else { %>
                             <li id="Contact" class="nav-item">
-                              
+                              <% } %>
 
                                 <a class="nav-link" href="/contact">
-                                  <i class="fa fa-comment fa-lg"></i> Contact Sadia</a>
+                                  <i class="fa fa-archive fa-lg" style="font-size:20px;color:olivedrab;"></i> Project</a>
                             </li>
 
 
