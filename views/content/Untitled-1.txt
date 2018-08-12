@@ -1,7 +1,19 @@
+
+ "I built a website to help advertise the inventory of a car dealership",
+        "The website was built using Web Expression",
+        "I designed and executed the webpage",
+        "This project helped me gain expertise in the use of Web Templates",
+
+
+
+
+
 {
     "Project1": {
         "pname": "Car Dealer Ship Website ",
-        "pdetail": "I built a website to help advertise the inventory of a dealership.The website was built using Web Expression I designed an executed the webpage This project helped me gain expertise in the use of Web Templates ",
+        "pdetail": "I built a website to help advertise the inventory of a dealership.
+        The website was built using Web Expression 
+        I designed an executed the webpage This project helped me gain expertise in the use of Web Templates ",
         "pbenefit": "The website facilitates the dealership’s business by making information about their inventory and prices readily available to customers."
     },
     "Project2": {

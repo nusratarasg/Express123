@@ -74,18 +74,18 @@ caption {
     color: #FFFFFF;
     font-size: x-small;
     padding-top: 0px;
-    text-align: center
+    text-align: justify;
 }
 
-#bkcolor1 {
+#bkcolor10 {
     background-color: lightgrey;
 }
 
-#bkcolor2 {
+#bkcolor20 {
     background-color: lightgrey;
 }
 
-#bkcolor3 {
+#bkcolor30 {
     background-color: lightgrey;
 }
 
