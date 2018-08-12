@@ -1,106 +1,59 @@
 <div class="container">
 
   <%- include ../partials/header.ejs %>
-  <!--  <h1>
+    <h1>
       <%= title %>
-    </h1> 
-    // <p>Welcome to 
+    </h1>
+    <p>Welcome to 
       <%= title %>
-    </p>-->
-    <!-- New Code Responsive -->
-<!--  <div class="container">-->
-<div class="jumbotron">
+    </p>  
+      <!-- Contact Form -->
+  <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-10">
-            <div class="card">
-                <!-- Card Body -->
-                <div class="card-body">
-                    <!-- Project1 Start  -->
-                    <!-- <h4 id="Project1">Text</h4> -->
-                    <!-- Example row of columns -->
-                    <div class="container" id="bkcolor1">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <!-- <h4 id="abc"></h4> -->
-                                
-                                <h4 id="pname1">Car Dealer Ship Website </h4>
-                                <!-- <ul id="proj1DetailsList"></ul> -->
-                                <p id="pdetail1">I built a website to help advertise the inventory of a car dealership company. I designed and executed the webpage. The website was built using Web Expression software. This project has helped me gain expertise in the use of Web Templates and helped improve my css skills. This project has inspired me to become a motivated web developer. </p>
-                                <!-- <p id="proj1">My First </p> -->
-                                <p id="pbenefit1"> The website facilitates the dealership’s business by making information about their inventory and prices readily available to customers.</p>
-                            </div>
-                            <div class="col-md-6">
+      <div class="col-md-7">
+        <div class="card">
+          <div class="card-header  text-white bg-primary mb-3">
+             <h1 class="card-title">Contact Us</h1> 
+          </div>
+          
+          <div class="card-body">
+              <h4 class="card-subtitle mb-2 text-muted">* All Fields are Required</h4>
+            <form>
+              <div class="form-group">
+                <label for="FirstName">First Name </label>
+                <input type="text" class="form-control form-control-lg" id="FirstName" name="FirstName" placeholder="Enter Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="LastName">Last Name</label>
+                <input type="text" class="form-control form-control-lg" id="LastName" name="LastName" placeholder="Enter Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="ContactNumber">Contact Number</label>
+                <input type="text" class="form-control form-control-lg" id="ContactNumber"pattern="^(\+0?1\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" name="ContactNumber" placeholder="Enter Your Contact Number" required>
+              </div>
 
-                                <div>
-                                    <img id= "abc" src="/Assets/images/cardealers.jpg" title="Car Delear photo" width="380" height="280">
-                                    <!-- <img src="./Assests/images/Project 2.JPG" title="project Photo" width="265" height="200"> -->
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
-                   
-                    <!-- End of project1-->
-                    <!-- Example row of columns -->
-                    <!-- Project2 start -->
-                    <!-- <h4 id="Project2">Text</h4> -->
-                    <div class="container" id="bkcolor2">
-                        <div class="row">
-                            <div class="col-md-6">
+              <div class="form-group">
+                <label for="EmailAddress">Email Address</label>
+                <input type="email" class="form-control form-control-lg" id="EmailAddress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" name="EmailAddress" placeholder="Enter Your Email Address" required>
+              </div>
 
-                                <div>
-                                    <img id = "xyz" src="/Assets/images/database2.jpg" title="ERD Diagram" width="380" height="265">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <h4 id="abc1Project2"></h4>
-                                
-                                <h4 id="pname2">Hotel Reservation System</h4>
-                                <!-- <ul id="proj2DetailsList"></ul> -->
-                                <!-- <p id="proj2"> My Second </p> -->
-                                <p id="pdetail2">I worked with a team of dedicated individuals to help design an online hotel reservation system. The reservation system was built using SQL Developer. I conducted extensive background research for the project and designed a comprehensive Entity Relationship Diagram for the reservation system. It was an excellent learning opportunity.</p>
-                                <!-- <p id="proj1">My First </p> -->
-                                <p id="pbenefit2"> The reservation system helps minimize human errors and greatly facilitates hotel business by making reservations more efficient and cost-effective.</p>
-                            </div>
-                            <!--  -->
+              <div class="form-group">
+                <label for="Message">Enter Message</label>
+                <textarea class="form-control form-control-lg" id="Message" name="Message" rows="3" required></textarea>
+              </div>
 
-                            <!--  -->
-                        </div>
-                        <hr>
-                    </div>
-                    <!-- End of project2-->
-                    <!-- Project3 Start -->
-                    <!-- <h4 id="Project3">Text</h4> -->
-                    <div class="container" id="bkcolor3">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h4 id="abc2"></h4>
-                                <h4 id="pname3">Community Garden Project</h4>
-                                <!-- <ul id="proj3DetailsList"></ul> -->
-                                <!-- <p id="proj3">My Third </p> -->
-                                <p id="pdetail3">I volunteered to help care for the Scarborough community garden in my neighborhood. This project helped me connect with many members of my community who share a common interest in gardening. Through this experience I learnt a lot about how to care for plants. I was able to express my creativity in many ways through this project. </p>
-                                <!-- <p id="proj1">My First </p> -->
-                                <p id="pbenefit3">This project enabled me to give back to my community and add to the beauty of my surroundings.</p>
-                                <br><br>
-                            </div>
-                            <div class="col-md-6">
-                                <!-- End of project3-->
+              <button id="SendButton" type="submit" class="btn btn-primary btn-lg">Submit</button>
+           <!-- <button id="CancelButton" class="btn btn-danger btn-lg" value="Cancel" onclick="window.location.href='/index.html'">Cancel</button>-->
+               <button id="CancelButton" type= "cancel" class="btn btn-danger btn-lg" value="Cancel" >Cancel</button>
+            </form>
+          </div>
 
-                                <div>
-                                    <img id = "atoz" src="/Assets/images/Project 3.jpg" title="Mini Garden" width="380" height="280" float:right }>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
         </div>
-        <%- include ../partials/footer.ejs %>
-         </div>
-        <!-- Image taken from: https://www.today.com/parents/9-enchanting-fairy-gardens-build-your-kids-t15221  -->
-   
 
-</div>
- 
+      </div>
+    </div>
+  </div>  
+    
+      
+    
+ <%- include ../partials/footer.ejs %>
