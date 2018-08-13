@@ -8,16 +8,17 @@ router.get('/', function (req, res, next) {
   });
 });
 
+
 /* GET about page. */
-router.get('/about', function (req, res, next) {
-  res.render('content/about', {
+router.get('/contact', function (req, res, next) {
+  res.render('content/contact', {
     title: 'Contact Page'
   });
 });
 
 /* GET contact page. */
-router.get('/contact', function (req, res, next) {
-  res.render('content/contact', {
+router.get('/project', function (req, res, next) {
+  res.render('content/project', {
     title: 'Project Page'
   });
 });

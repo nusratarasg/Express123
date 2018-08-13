@@ -55,7 +55,7 @@ h6 {
     color: olive;
 }
 
-.myimg {
+#myimg {
     float: right;
     margin-left: 17px;
     margin-top: 6px;
@@ -85,14 +85,11 @@ caption {
 //Group1*/
 
 #footer {
-    border-radius: 10px;
-    box-shadow: 5px 5px 4px #CCCCCC;
     margin-bottom: 5px;
-    background-color: #263786;
-    color: #FFFFFF;
-    font-size: x-small;
+    color: black;
+    font-size: small;
     padding-top: 0px;
-    text-align: justify;
+    text-align: center;
 }
 
 #bkcolor10 {
@@ -120,66 +117,17 @@ caption {
     font-weight: normal;
 }
 
-.button2 {
-    border-radius: 10px;
-    background-color: #3D4047;
-    border: none;
-    color: azure;
-    padding: 8px 16px 8px 16px;
-    text-decoration: blink;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-size: medium;
-    font-weight: normal;
-}
-
-.button3 {
-    border-radius: 10px;
-    background-color: #3D4047;
-    border: none;
-    color: azure;
-    padding: 8px 16px 8px 16px;
-    text-decoration: blink;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-size: medium;
-    font-weight: normal;
-}
-
-#abc {
+#p1img {
     margin-top: 20px;
 }
 
-#xyz {
+#p2img {
     margin-top: 20px;
 }
 
-#atoz {
+#p3img {
     margin-top: 20px;
 }
-
-/* End of From Css*/
-
-/*
-
-#button {
-    width: 6em;
-    border: 2px solid green;
-    background: #ffe;
-    border-radius: 5px;
-}
-a {
-    display: block;
-    width: 100%;
-    line-height: 2em;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-}
-a:hover {
-    color: red;
-    background: #eff;
-}*/
 
 #imag {
     float: right;

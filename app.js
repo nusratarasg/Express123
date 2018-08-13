@@ -1,3 +1,9 @@
+/* Custom javaScripts goes here */
+/*  File name          app.js
+    Author's name      Nusrat Ara Riaz
+    Web site name      nusratarasg.github.io
+    File description   This file contain JavaScript Code */
+
 let createError = require("http-errors");
 let express = require("express");
 let path = require("path");
@@ -22,18 +28,18 @@ app.use(
 );
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
-
+// node_modules are added to path, we did this not the EXpress Generator did this for us
 app.use(express.static(path.join(__dirname, "node_modules")));
 app.use("/", indexRouter);
 // app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   next(createError(404));
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get("env") === "development" ? err : {};
