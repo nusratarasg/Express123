@@ -18,7 +18,9 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Main Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+   <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> -->
       <a class="navbar-brand" href="/"> <img src="/Assets/images/mylogo4.png" width="55" height="50" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="true" aria-label="Toggle navigation">
@@ -36,19 +38,19 @@
                       <i class="fa fa-home fa-lg" style="font-size:20px;color:olivedrab;"></i> Home</a>
                 </li>
 
-                <% if(title == "About Page") { %>
-                  <li id="About" class="nav-item active">
+                <% if(title == "Contact Page") { %>
+                  <li id="Contact" class="nav-item active">
                     <% } else { %>
-                      <li id="About" class="nav-item">
+                      <li id="Contact" class="nav-item">
                         <% } %>
                           <a class="nav-link" href="/contact">
                             <i class="fa fa-address-card fa-lg" style="font-size:20px;color:olivedrab;"></i> Contact </a>
                       </li>
 
-                      <% if(title == "Contact Page") { %>
-                        <li id="Contact" class="nav-item active">
+                      <% if(title == "Project Page") { %>
+                        <li id="Project" class="nav-item active">
                           <% } else { %>
-                            <li id="Contact" class="nav-item">
+                            <li id="Project" class="nav-item">
                               <% } %>
 
                                 <a class="nav-link" href="/project">

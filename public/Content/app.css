@@ -11,6 +11,17 @@
     background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
 }*/
 
+#paragraph1,
+#paragraph2,
+#pdetail1,
+#pdetail2,
+#pdetail3,
+#pbenefit1,
+#pbenefit2,
+#pbenefit3 {
+    text-align: justify;
+}
+
 #colorspace {
     background-color: cadetblue;
     font-size: xx-large;
@@ -138,12 +149,4 @@ caption {
 
 .mybullet {
     list-style-image: url('./Assets/images/red-star-bullet-clipart.png');
-}
-
-#paragraph1 {
-    text-align: justify;
-}
-
-#paragraph2 {
-    text-align: justify;
 }
